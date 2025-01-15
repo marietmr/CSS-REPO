@@ -1,0 +1,162 @@
+
+/* PAS RESPONSIVE => A REGARDER PLUS TARD */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    position: relative;
+    width: 1536px;
+    /* height: 684px; */
+    background: #D74949;
+}
+
+h1 {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 50px;
+    top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+hr {
+    position: absolute;
+    width: 49px;
+    height: 2px;
+    top: 106px;
+    background: #D9D9D9;
+}
+
+h2 {
+    position: absolute;
+    width: 1009px;
+    height: 19px;
+    left: 40px;
+    top: 128px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.07em;
+    color: #000000;
+}
+
+p[class="cenText"]{
+    position: absolute;
+    width: 1009px;
+    height: 23px;
+    left: calc(50% - 1009px/2 - 0.5px);
+    top: 154px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+span[class="am"]{
+    color: #8F2727;
+}
+
+div[class="div-mr"]{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 50px;
+    top: 215px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+p[class="name"]{
+    font-weight: bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+p[class="profession"]{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+img[class="linkedin-icon"]{
+    position: relative;
+    margin-left: 20px;
+}
+
+img[class="whatsp-icon"]{
+    position: relative;
+    margin-left: 10px;
+}
+
+main {
+    position: absolute;
+    width: 1110px;
+    height: 684px;
+    left: 213px;
+    top: 0px;
+    background: #F3F3F3;
+}
+
+p[class="rect"]{
+    position: absolute;
+    z-index: 7;
+    width: 13px;
+    height: 27px;
+    left: 735px;
+    top: 685px;
+    background: #D9D9D9;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 684px;
+    background: #3A3A3A;
+}
+
+
+p[class="footer"] {
+    position: absolute;
+    width: 176px;
+    height: 85px;
+    left: 632px;
+    top: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
