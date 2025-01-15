@@ -1,0 +1,70 @@
+/* Position centré du titre
+dot en gras et #ffb30e */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+    width: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(52, 52, 52);
+    color: white;
+}
+
+h1 {
+    background: rgb(99, 95, 95);
+    padding: 30px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    border-bottom: solid 1px white;
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 0;
+    text-align: center;
+}
+
+
+p {
+    padding-top: 50px;
+    max-width: 500px;
+    letter-spacing: 1px;
+    font-style: italic;
+    line-height: 2;
+    text-transform: uppercase;
+}
+/* a line height of two times the font-size */
+/* uppercase */
+
+.dot {
+    color: #ffb30e;
+    font-style: bold;
+}
+
+span[class="#"] {
+    color: #ffb30e;
+    font-weight: bold;
+}
+
+a[class="#"]{
+    color: black;
+    background: #ffaf03;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+a[class="#"]:hover{
+    background: #fbca62;
+    cursor: pointer;
+}
