@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2D4480;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+/* div[class="basic"]{
+    position: relative;
+    display: flex;
+    align-content: center;
+    width: 100%;
+} */
+
+img[class="basic-png"]{
+    margin: 0px auto;
+    width: 200px;
+    height: 270px;
+}
